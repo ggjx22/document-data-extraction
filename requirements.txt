@@ -1,0 +1,8 @@
+llama-index
+llama-index-core
+llama-index-readers-file
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+llama-parse
+llama-index-postprocessor-flag-embedding-reranker
+git+https://github.com/FlagOpen/FlagEmbedding.git
