@@ -26,4 +26,7 @@ def parse_docs(result_format, document_dir):
         file_extractor=document_extractor
     )
     
-    return document.load_data()
+    try:
+        return document.load_data()
+    except Exception as e:
+        print(f'Parsing error: {e}')
